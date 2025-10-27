@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { CheckboxComponent } from '../checkbox/checkbox.component';
 
 export interface Todo {
   userId: number;
@@ -11,7 +12,7 @@ export interface Todo {
 @Component({
   selector: 'app-todo-item',
   standalone: true,
-  imports: [],
+  imports: [CheckboxComponent],
   templateUrl: './todo-item.component.html',
   styleUrl: './todo-item.component.scss'
 })
