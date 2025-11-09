@@ -4,7 +4,6 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'checkbox',
   standalone: false,
-  // imports: [MatCheckboxModule],
   templateUrl: './checkbox.component.html',
   styleUrl: './checkbox.component.scss'
 })

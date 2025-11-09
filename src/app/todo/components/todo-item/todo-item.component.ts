@@ -11,7 +11,6 @@ export interface Todo {
 @Component({
   selector: 'app-todo-item',
   standalone: false,
-  // imports: [CheckboxComponent],
   templateUrl: './todo-item.component.html',
   styleUrl: './todo-item.component.scss'
 })
